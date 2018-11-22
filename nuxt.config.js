@@ -1,5 +1,5 @@
 const env = {
-  apiUrl: process.env.API_URL || 'https://api.stateofthedapps.com/',
+  apiUrl: process.env.API_URL || 'http://47.74.176.139:8080/',
   cdnPublicPath: process.env.CDN_PUBLIC_PATH || '/_nuxt/',
   googleAnalytics: process.env.GOOGLE_ANALYTICS || 'UA-000000-1',
   fullstory: process.env.FULLSTORY,
